@@ -1,0 +1,76 @@
+/* Reset básico */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+#root {
+  min-height: 100svh;
+}
+
+/* ── Hambúrguer e menu mobile ── */
+.botao-hamburguer {
+  display: none !important;
+}
+
+.linha {
+  display: block;
+  width: 22px;
+  height: 2px;
+  background-color: #3a3a3a;
+  border-radius: 2px;
+  transition:
+    transform 0.25s ease,
+    opacity 0.2s ease;
+}
+
+.linha-topo-aberta {
+  transform: translateY(7px) rotate(45deg);
+}
+.linha-meio-oculta {
+  opacity: 0;
+  transform: scaleX(0);
+}
+.linha-base-aberta {
+  transform: translateY(-7px) rotate(-45deg);
+}
+
+/* Menu mobile */
+.menu-mobile {
+  display: none;
+  max-height: 0;
+  overflow: hidden;
+  background-color: #f5efe0;
+  border-top: 1px solid rgba(232, 130, 12, 0.15);
+  transition: max-height 0.3s ease;
+  font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+}
+
+.menu-mobile-aberto {
+  max-height: 400px;
+}
+
+.link-mobile:hover {
+  color: #e8820c !important;
+  background-color: rgba(232, 130, 12, 0.08);
+}
+
+/* ── Breakpoints ── */
+@media (max-width: 768px) {
+  .botao-hamburguer {
+    display: flex !important;
+  }
+
+  .menu-mobile {
+    display: block;
+  }
+
+  /* Esconde links e área direita no mobile via JS inline style override */
+  nav > ul,
+  nav > div:last-of-type {
+    display: none !important;
+  }
+}
