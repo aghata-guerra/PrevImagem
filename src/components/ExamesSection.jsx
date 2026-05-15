@@ -38,7 +38,7 @@ function ExamesSection(){
             ))}
         </div>
 
-        <button>Ver todos os exames →</button>
+        <button>Ver todos os exames!</button>
     </section>
     )
     
