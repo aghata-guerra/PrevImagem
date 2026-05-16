@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+:root {
+  --cor-laranja:        #f97316;
+  --cor-laranja-claro:  #fb923c;
+  --cor-fundo-rodape:   #484848;
+  --cor-texto:          #d1d5db;
+  --cor-texto-suave:    #9ca3af;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+}
