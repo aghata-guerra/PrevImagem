@@ -1,6 +1,7 @@
 import EsteticaSection from "./components/EsteticaSection"
 import ExamesSection from "./components/ExamesSection"
 import Medicos from "./components/MedicosSection";
+import Convenios from "./components/Convenios"
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
     <ExamesSection/>
     <EsteticaSection/>
     <Medicos/>
+    <Convenios/>
     
     </div>
   )
