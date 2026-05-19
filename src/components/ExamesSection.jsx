@@ -1,3 +1,4 @@
+import BotaoSection from "./BotaoSection";
 import CardSections from "./CardSections";
 
 const exames =[
@@ -12,21 +13,23 @@ const exames =[
         icone:"",
         titulo:"Raio-X",
         descricao:"Exames de radiografia para avaliação de ossos e estruturas internas.",
-    
+        
     },
     {
         id:3,
         icone:"",
         titulo:"Mamografia",
         descricao:"Exames de imagem das mamas utilizados para detecção precoce de alterações.",
+       
     }
 ]
+
 function ExamesSection(){
     return(
 
     <section>
         <h2>Exames e Serviços</h2>
-
+        <p>Veja alguns dos nossos exames:</p>
         <div>
             {exames.map((exame)=>(
                 <CardSections
@@ -35,10 +38,17 @@ function ExamesSection(){
                 titulo={exame.titulo}
                 descricao={exame.descricao}
                 />
+  
             ))}
         </div>
 
-        <button>Ver todos os exames!</button>
+        <div>
+
+                <BotaoSection botao="exames"/>
+          
+        </div>
+        <div></div>
+
     </section>
     )
     
