@@ -4,13 +4,12 @@ import ExamesSection from "./components/ExamesSection";
 import Medicos from "./components/MedicosSection";
 import QuemSomos from "./components/QuemSomos";
 import Convenios from "./components/Convenios";
+import ChatbotIcon from "./components/ChatbotIcon"; // ← linha nova
 
 function App() {
   return (
     <div>
-
       <Navbar />
-      {/* Coloquei section para linkar com a navbar */}
       <section id="sobre">
         <QuemSomos />
       </section>
@@ -27,9 +26,12 @@ function App() {
         <Convenios />
       </section>
       <section id="contatos">
-        {/* < Coloca o componente dos "contatos" aqui /> */}
+        
       </section>
+
+      <ChatbotIcon /> 
     </div>
   );
 }
+
 export default App;
