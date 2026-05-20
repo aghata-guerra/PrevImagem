@@ -74,11 +74,7 @@ export function QuemSomos() {
         <CardSections 
           icone={iconeValores}
           titulo="Valores"
-          descricao={`• Atendimento Humanizado;
-                    • Comprometimento;
-                    • Qualidade;
-                    • Respeito aos nossos Clientes, parceiros e colaboradores;
-                    • Inovação.`}
+          descricao="• Atendimento Humanizado; • Comprometimento; • Qualidade; • Respeito aos nossos Clientes, parceiros e colaboradores; • Inovação."
         />
       </div>
 
