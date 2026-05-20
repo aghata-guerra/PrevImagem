@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="200" height="200">
+  <!-- Círculo de fundo bege/rosado -->
+  <circle cx="50" cy="50" r="48" fill="#FFF2EB" />
+
+  <!-- Ícone do Olho -->
+  <g fill="none" stroke="#FF6B35" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round">
+    
+    <!-- Formato externo do olho (amêndoa) -->
+    <!-- Usando um caminho (path) para criar o formato suave do olho -->
+    <path d="M 25 50 C 35 32, 65 32, 75 50 C 65 68, 35 68, 25 50 Z" />
+
+    <!-- Íris/Pupila (círculo interno) -->
+    <circle cx="50" cy="50" r="10" />
+
+  </g>
+</svg>
