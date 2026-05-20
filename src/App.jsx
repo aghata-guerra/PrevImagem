@@ -2,15 +2,17 @@ import Navbar from "./Navbar";
 import EsteticaSection from "./components/EsteticaSection";
 import ExamesSection from "./components/ExamesSection";
 import Medicos from "./components/MedicosSection";
+import QuemSomos from "./components/QuemSomos";
 import Convenios from "./components/Convenios";
 
 function App() {
   return (
     <div>
+
       <Navbar />
       {/* Coloquei section para linkar com a navbar */}
       <section id="sobre">
-        {/* < Coloca o componente do "sobre" aqui /> */}
+        <QuemSomos />
       </section>
       <section id="exames">
         <ExamesSection />
