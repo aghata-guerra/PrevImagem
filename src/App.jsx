@@ -4,7 +4,8 @@ import ExamesSection from "./components/ExamesSection";
 import Medicos from "./components/MedicosSection";
 import QuemSomos from "./components/QuemSomos";
 import Convenios from "./components/Convenios";
-import ChatbotIcon from "./components/ChatbotIcon"; // ← linha nova
+import ChatbotIcon from "./components/ChatbotIcon"; 
+import FooterComponent from "./components/FooterComponent";// ← linha nova
 
 function App() {
   return (
@@ -26,7 +27,7 @@ function App() {
         <Convenios />
       </section>
       <section id="contatos">
-        
+        <FooterComponent /> {/* ← componente do rodapé */}
       </section>
 
       <ChatbotIcon /> 
