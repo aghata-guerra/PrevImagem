@@ -4,7 +4,7 @@ import ExamesSection from "./components/ExamesSection";
 import Medicos from "./components/MedicosSection";
 import QuemSomos from "./components/QuemSomos";
 import Convenios from "./components/Convenios";
-import ChatbotIcon from "./components/ChatbotIcon"; 
+import Chatbot from "./components/Chatbot"; 
 import FooterComponent from "./components/FooterComponent";// ← linha nova
 
 function App() {
@@ -30,7 +30,7 @@ function App() {
         <FooterComponent /> {/* ← componente do rodapé */}
       </section>
 
-      <ChatbotIcon /> 
+      <Chatbot /> 
     </div>
   );
 }
