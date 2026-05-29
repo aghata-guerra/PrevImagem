@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="200" height="200">
+  <!-- Fundo circular (padrão que eu estava usando) -->
+  <circle cx="50" cy="50" r="48" fill="#FFF2EB" />
+
+  <!-- Diamante - Exatamente como o seu código, mas redimensionado -->
+  <g
+    fill="none"
+    stroke="#FF6B35"
+    stroke-width="3.5"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  >
+    <!-- Contorno do diamante (ajustado para a viewBox 100x100) -->
+    <polygon points="25,40 38,27 62,27 75,40 50,72" />
+
+    <!-- Linha horizontal (cintura do diamante) -->
+    <line x1="25" y1="40" x2="75" y2="40" />
+
+    <!-- Parte superior (facetas do topo) -->
+    <line x1="38" y1="27" x2="50" y2="40" />
+    <line x1="62" y1="27" x2="50" y2="40" />
+
+    <!-- Parte inferior (facetas da ponta) -->
+    <line x1="38" y1="40" x2="50" y2="72" />
+    <line x1="62" y1="40" x2="50" y2="72" />
+  </g>
+</svg>

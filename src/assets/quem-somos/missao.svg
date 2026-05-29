@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="200" height="200">
+  <!-- Círculo de fundo bege/rosado -->
+  <circle cx="50" cy="50" r="48" fill="#FFF2EB" />
+
+  <!-- Alvo (círculos concêntricos) -->
+  <g fill="none" stroke="#FF6B35" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    
+    <!-- Anel mais externo -->
+    <circle cx="48" cy="51" r="27" />
+    
+    <!-- Anel do meio -->
+    <circle cx="48" cy="51" r="17" />
+    
+    <!-- Anel interno -->
+    <circle cx="48" cy="51" r="8" />
+    
+    <!-- Centro do alvo (ponto) -->
+    <circle cx="48" cy="51" r="3" fill="#FF6B35" />
+
+    <!-- Flecha -->
+    <!-- Haste da flecha -->
+    <line x1="52" y1="48" x2="73" y2="33" />
+    
+    <!-- Ponta da flecha (formato de triângulo/cunha) -->
+    <polygon points="73,33 82,27 77,37" fill="#FF6B35" stroke="none" />
+    
+    <!-- Detalhe da cauda da flecha (opcional, para dar o formato de "V") -->
+    <path d="M 70 35 L 74 31" stroke="#FF6B35" stroke-width="2.5" fill="none" />
+  </g>
+</svg>
