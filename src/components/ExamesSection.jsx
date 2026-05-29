@@ -13,6 +13,9 @@ const exames = [
 function ExamesSection() {
   return (
     <section className="bg-[#F5F0EB] py-12 px-6">
+      <div className="max-w-6xl mx-auto px-4 w-full bg-[#E7E2DA]">
+        <hr className="border-t border-[#E67E22] mt-4 mb-10" />
+      </div>
       <h2 className="text-orange-500 text-center font-bold text-2xl uppercase mb-2">Exames e Serviços</h2>
       <p className="text-center text-gray-500 text-sm mb-8">Veja alguns dos nossos exames:</p>
       <div className="grid grid-cols-3 gap-6 max-w-4xl mx-auto">
